@@ -38,6 +38,11 @@ ul
     font-weight: bold;
 }
 
+.imageflottante
+{
+    float: right;
+}
+
 h3
 {
     color: black;
