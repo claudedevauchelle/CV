@@ -3,28 +3,35 @@ premier fichier
 CSS exercice
 le tout dans un repository sur github via gitKraken
 */
-
+h1
+{
+    color: grey;
+    font-size: 3em;
+}
 p
 {
-    color: blue;
+    color: black;
+    font-size: 1.2em;
 }
 
 ul, strong
 {
-    color: violet;
+    color: grey;
+    font-size: 1.2em;
 }
 
 h2
 {
-    color: red;
+    color: black;
+    font-size: 2em;
 }
 
 .compétences
 {
-    color: brown;
+    color: grey;
 }
 
 #unique
 {
-    color: yellowgreen;
+    color: grey;
 }
