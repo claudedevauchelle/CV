@@ -4,16 +4,8 @@ CSS exercice
 le tout dans un repository sur github via gitKraken
 */
 
-@fontface { /* Définition d'une nouvelle police nommé Blackjack */
-    font-family: "blackjackregular";
-    src: url("blackjack-webfont.eot");
-    src: url("blackjack-webfont.eot?#iefix") format('embedded-opentype'),
-         url("blackjack-webfont.svg") format('svg'),
-         url("blackjack-webfont.ttf") format('truetype'),
-         url("blackjack-webfont.woff") format('woff');
-         font-weight: 400;
-        font-style: normal;
-}
+
+
 h1
 {
     color: grey;
