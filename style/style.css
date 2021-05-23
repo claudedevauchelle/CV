@@ -1,3 +1,9 @@
+/* 
+premier fichier 
+CSS exercice
+le tout dans un repository sur github via gitKraken
+*/
+
 p
 {
     color: blue;
@@ -11,4 +17,14 @@ ul, strong
 h2
 {
     color: red;
+}
+
+.compétences
+{
+    color: brown;
+}
+
+#unique
+{
+    color: yellowgreen;
 }
