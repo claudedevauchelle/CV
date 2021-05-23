@@ -40,6 +40,8 @@ ul
     font-weight: bold;
     text-align: center;
     box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 20px / 20px;
 }
 
 .imageflottante
@@ -55,6 +57,9 @@ h3
     font-family:"blackjack-webfont";
     text-shadow: 2px 2px 4px grey;
     text-align: center;
+    box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 10px / 10px;
 }
 
 h2
@@ -98,8 +103,9 @@ h4
 body
 
 {
-    background-color:#c0b8b0;
+    background-image: url("fond.jpg")
+    
 
 }
 
-/*  */
+/*background-color:#c0b8b0;  */
