@@ -19,6 +19,7 @@ h1
     font-size: 3.5em;
     font-family: "blackjack-webfont";
     text-align: center;
+    text-shadow: 2px 2px 4px black;
       
 }
 
@@ -41,6 +42,7 @@ ul
 .imageflottante
 {
     float: right;
+    opacity: 0.1;
 }
 
 h3
@@ -48,6 +50,7 @@ h3
     color: black;
     font-size: 1.7em;
     font-family:"blackjack-webfont";
+    text-shadow: 2px 2px 4px grey;
 }
 
 h2
@@ -55,6 +58,7 @@ h2
     color: black;
     font-size: 2.5em;
     font-family: "blackjack-webfont";
+    text-shadow: 2px 2px 4px white;
 }
 
 h4
@@ -62,6 +66,7 @@ h4
     color: grey;
     font-size: 1.5em;
     font-family: "blackjack-webfont";
+    text-shadow: 1px 1px 2px black;
 }
 
 .compétences
@@ -81,3 +86,14 @@ h4
 {
     text-align: center;
 }
+
+/* couleurs fond */
+
+body
+
+{
+    background-color:#c0b8b0;
+
+}
+
+/*  */
