@@ -38,7 +38,7 @@ ul
 
 h3
 {
-    color: grey;
+    color: black;
     font-size: 1.7em;
     font-family:"blackjack-webfont";
 }
@@ -47,6 +47,13 @@ h2
 {
     color: black;
     font-size: 2.5em;
+    font-family: "blackjack-webfont";
+}
+
+h4
+{
+    color: grey;
+    font-size: 1.5em;
     font-family: "blackjack-webfont";
 }
 
