@@ -10,14 +10,12 @@ le tout dans un repository sur github via gitKraken
          url("blackjack-webfont.svg"),
          url("blackjack-webfont.ttf"),
          url("blackjack-webfont.woff");
-
 }
   
 body
 
 {
     background-image: url("fond.jpg")
-
 }
 
 
@@ -34,7 +32,6 @@ h1
     background-color:#c0b8b0;
     width: 450px;
     margin: 10px auto;
-      
 }
 
 h2
@@ -97,8 +94,6 @@ article
     border: 1px black solid;
     border-radius: 20px / 20px;
     background-color:#c0b8b0;
-  
-   
 }
 
 
@@ -112,8 +107,6 @@ section
     background-color:#c0b8b0;
     margin: 20px auto;
     max-width: 700px;
-    min-height: 300;
-
 }
 /*background-color:#c0b8b0;  */
 
@@ -123,8 +116,6 @@ p
     font-size: 1.2em;
     font-family: "blackjack-webfont";
     text-align: center;
-    
-    
 }
 
 ul
@@ -137,7 +128,6 @@ ul
     background-color:#c0b8b0;
     width: 220px;
     margin: 20px auto;
-
 }
 
 .imageflottante
@@ -146,19 +136,17 @@ ul
     opacity: 0.1;
 }
 
-#section
+#conteneur
 {
     display: flex;
     flex-wrap: wrap;
 }
 
-#formation
+#sous_conteneur
 {
-    max-height: 400px;
+    margin: 0px auto;
 }
 
-#competences
-{
-    max-height: 500px;
-    
-}
+/*display: flex;
+    flex-wrap: wrap;*/
+
