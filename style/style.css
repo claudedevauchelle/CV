@@ -20,6 +20,10 @@ h1
     font-family: "blackjack-webfont";
     text-align: center;
     text-shadow: 2px 2px 4px black;
+    box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 20px / 20px;
+    background-color:#c0b8b0;
       
 }
 
@@ -29,6 +33,7 @@ p
     font-size: 1.2em;
     font-family: "blackjack-webfont";
     text-align: center;
+    
     
 }
 
@@ -42,6 +47,9 @@ ul
     box-shadow: 6px 6px 6px black;
     border: 1px black solid;
     border-radius: 20px / 20px;
+    background-color:#c0b8b0;
+    width: 220px;
+    margin: 20px auto;
 }
 
 .imageflottante
@@ -60,6 +68,9 @@ h3
     box-shadow: 6px 6px 6px black;
     border: 1px black solid;
     border-radius: 10px / 10px;
+    background-color:#c0b8b0;
+    width: 470px;
+    margin: auto;
 }
 
 h2
@@ -69,6 +80,12 @@ h2
     font-family: "blackjack-webfont";
     text-shadow: 2px 2px 4px white;
     text-align: center;
+    width: 470px;
+    margin: 20px auto;
+    box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 20px / 20px;
+    background-color:#c0b8b0;
 }
 
 h4
@@ -78,8 +95,14 @@ h4
     font-family: "blackjack-webfont";
     text-shadow: 1px 1px 2px black;
     text-align: center;
-}
+    width: 470px;
+    margin: 20px auto;
+    box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 20px / 20px;
+    background-color:#c0b8b0;
 
+}
 .compétences
 {
     color: black;
