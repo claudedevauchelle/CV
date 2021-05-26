@@ -59,8 +59,8 @@ h3
     border: 1px black solid;
     border-radius: 10px / 10px;
     background-color:#c0b8b0;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 h4
@@ -70,6 +70,8 @@ h4
     font-family: "blackjack-webfont";
     text-shadow: 1px 1px 2px black;
     text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 
@@ -91,9 +93,7 @@ article
     display: flex;
     flex-wrap: wrap;
     margin: 10px auto;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 20px / 20px;
+    
 }
 
 
@@ -168,11 +168,4 @@ ul
 {
     width: 40%;
 }
-
-#experience article
-{
-   
-}
-/*display: flex;
-    flex-wrap: wrap;*/
 
