@@ -15,9 +15,14 @@ le tout dans un repository sur github via gitKraken
 body
 
 {
-    background-image: url("fond.jpg")
+    /*  background-image: url("fond.jpg") */ 
+    
 }
 
+#bloc_page
+{
+   min-width: 900px;
+}
 
 h1
 {
@@ -41,8 +46,6 @@ h2
     font-family: "blackjack-webfont";
     text-shadow: 2px 2px 4px white;
     text-align: center;
-    width: 370px;
-    margin: 20px auto;
 }
 
 h3
@@ -56,8 +59,8 @@ h3
     border: 1px black solid;
     border-radius: 10px / 10px;
     background-color:#c0b8b0;
-    width: 370px;
-    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 h4
@@ -67,8 +70,6 @@ h4
     font-family: "blackjack-webfont";
     text-shadow: 1px 1px 2px black;
     text-align: center;
-    width: 370px;
-    margin: 20px auto;
 }
 
 
@@ -87,26 +88,25 @@ header
 
 article
 {
-    
-    width: 430px;
-    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
     box-shadow: 6px 6px 6px black;
     border: 1px black solid;
     border-radius: 20px / 20px;
-    background-color:#c0b8b0;
 }
 
 
 section
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     box-shadow: 6px 6px 6px black;
     border: 1px black solid;
     border-radius: 20px / 20px;
     background-color:#c0b8b0;
-    margin: 20px auto;
-    max-width: 700px;
+    margin: 20px;
+    padding: 10px;
 }
 /*background-color:#c0b8b0;  */
 
@@ -124,10 +124,7 @@ ul
     font-size: 1.2em;
     font-family: "blackjack-webfont";
     font-weight: bold;
-    text-align: center;
     background-color:#c0b8b0;
-    width: 220px;
-    margin: 20px auto;
 }
 
 .imageflottante
@@ -139,14 +136,43 @@ ul
 #conteneur
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px;
 }
 
-#sous_conteneur
+
+
+.lisere_gauche {
+    position: relative;
+    background-color: #86735f;
+    width: 30px;
+    min-width: 30px;
+    box-shadow: 6px 6px 6px black;
+    border: 1px black solid;
+    border-radius: 20px / 20px;
+  }
+
+#formation
 {
-    margin: 0px auto;
+    max-height: 670px;
+    width: 20%;
 }
 
+#competences
+{
+    max-height: 670px;
+    width: 20%;
+}
+
+#experience
+{
+    width: 40%;
+}
+
+#experience article
+{
+   
+}
 /*display: flex;
     flex-wrap: wrap;*/
 
