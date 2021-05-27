@@ -5,167 +5,142 @@ le tout dans un repository sur github via gitKraken
 */
 
 @font-face {
-    font-family: "blackjack-webfont";
-    src: url("blackjack-webfont.ttf"),
-         url("blackjack-webfont.svg"),
-         url("blackjack-webfont.ttf"),
-         url("blackjack-webfont.woff");
-}
-  
-body
-
-{
-    /*  background-image: url("fond.jpg") */ 
-    
+  font-family: "blackjack-webfont";
+  src: url("blackjack-webfont.ttf"), url("blackjack-webfont.svg"),
+    url("blackjack-webfont.ttf"), url("blackjack-webfont.woff");
 }
 
-#bloc_page
-{
-   min-width: 900px;
+body {
+  /*  background-image: url("fond.jpg") */
+  background-color: #e3dcd2;
 }
 
-h1
-{
-    color: grey;
-    font-size: 3.5em;
-    font-family: "blackjack-webfont";
-    text-align: center;
-    text-shadow: 2px 2px 4px black;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 20px / 20px;
-    background-color:#c0b8b0;
-    width: 450px;
-    margin: 10px auto;
+#bloc_page {
+  min-width: 900px;
 }
 
-h2
-{
-    color: black;
-    font-size: 2.5em;
-    font-family: "blackjack-webfont";
-    text-shadow: 2px 2px 4px white;
-    text-align: center;
+h1 {
+  color: #e3dcd2;
+  font-size: 3.5em;
+  font-family: "blackjack-webfont";
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  box-shadow: 6px 6px 6px black;
+  border: 1px black solid;
+  border-radius: 20px / 20px;
+  background-color: #cc8b65; /* #c0b8b0  */
+  width: 450px;
+  margin: 10px auto;
 }
 
-h3
-{
-    color: black;
-    font-size: 1.7em;
-    font-family:"blackjack-webfont";
-    text-shadow: 2px 2px 4px grey;
-    text-align: center;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 10px / 10px;
-    background-color:#c0b8b0;
-    padding-left: 4px;
-    padding-right: 4px;
+h2 {
+  color: #e3dcd2;
+  font-size: 2.5em;
+  font-family: "blackjack-webfont";
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
 }
 
-h4
-{
-    color: grey;
-    font-size: 1.5em;
-    font-family: "blackjack-webfont";
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-    padding-left: 4px;
-    padding-right: 4px;
+h3 {
+  color: #e3dcd2;
+  font-size: 1.7em;
+  font-family: "blackjack-webfont";
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  border: 1px black solid;
+  border-radius: 10px / 10px;
+  background-color: #cc8b65;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
+h4 {
+  color: grey;
+  font-size: 1.5em;
+  font-family: "blackjack-webfont";
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
 
 /* couleurs fond */
 
-header
-{
-    width: auto;
-    max-width: 550px;
-    margin: 20px auto;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 20px / 20px;
-    background-color:#c0b8b0;
+header {
+  width: auto;
+  max-width: 550px;
+  margin: 20px auto;
+  box-shadow: 6px 6px 6px black;
+  border: 1px black solid;
+  border-radius: 20px / 20px;
+  background-color: #013328; /* #c0b8b0  */
 }
 
-article
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    
+article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
 }
 
-
-section
-{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 20px / 20px;
-    background-color:#c0b8b0;
-    margin: 20px;
-    padding: 10px;
+section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 6px black;
+  border: 1px black solid;
+  border-radius: 20px / 20px;
+  background-color: #013328; /* c0b8b0 */
+  margin: 20px;
+  padding: 10px;
 }
 /*background-color:#c0b8b0;  */
 
-p
-{
-    color: black;
-    font-size: 1.2em;
-    font-family: "blackjack-webfont";
-    text-align: center;
+p {
+  color: #e3dcd2;
+  font-size: 1.2em;
+  font-family: "blackjack-webfont";
+  text-align: center;
 }
 
-ul
-{
-    color: black;
-    font-size: 1.2em;
-    font-family: "blackjack-webfont";
-    font-weight: bold;
-    background-color:#c0b8b0;
+ul {
+  color: #e3dcd2;
+  font-size: 1.2em;
+  font-family: "blackjack-webfont";
+  font-weight: bold;
+  background-color: #013328;
 }
 
-.imageflottante
-{
-    float: center;
-    opacity: 0.1;
+.imageflottante {
+  float: center;
+  opacity: 0.1;
 }
 
-#conteneur
-{
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
+#conteneur {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
 }
-
-
 
 .lisere_gauche {
-    position: relative;
-    background-color: #86735f;
-    width: 30px;
-    min-width: 30px;
-    box-shadow: 6px 6px 6px black;
-    border: 1px black solid;
-    border-radius: 20px / 20px;
-  }
-
-#formation
-{
-    max-height: 670px;
-    width: 20%;
+  position: relative;
+  background-color: #cc8b65;
+  width: 30px;
+  min-width: 30px;
+  box-shadow: 6px 6px 6px black;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 20px / 20px;
 }
 
-#competences
-{
-    max-height: 670px;
-    width: 20%;
+#formation {
+  max-height: 700px;
+  width: 30%;
 }
 
-#experience
-{
-    width: 40%;
+#competences {
+  max-height: 570px;
+  width: 30%;
 }
 
+#experience {
+  width: 40%;
+}
