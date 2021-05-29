@@ -15,6 +15,15 @@ body {
   background-color: #e3dcd2;
 }
 
+@media screen and (max-width: 1024px)
+{
+  body
+  {
+    background-color: #8a8786;
+    font-size: 1.2em;
+  }
+}
+
 #bloc_page {
   min-width: 900px;
 }
