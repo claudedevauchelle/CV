@@ -15,17 +15,47 @@ body {
   background-color: #e3dcd2;
 }
 
+/* responsive */
+
+
 @media screen and (max-width: 1024px)
 {
+  #bloc_page
+  {
+    width: auto;
+  }
   body
   {
-    background-color: #8a8786;
     font-size: 1.2em;
   }
+
+  .lisere_gauche
+  {
+    display: none;
+  }
+
+  #sous_conteneur
+  {
+    flex-direction: column;
+  }
+
+  section
+  {
+    width: auto;
+    margin-bottom: 15px;
+   font-size: 3em;
+  }
+
+  
+
+
+
+
 }
 
 #bloc_page {
-  min-width: 900px;
+  max-width: 900px;
+  margin: auto;
 }
 
 h1 {
@@ -124,10 +154,15 @@ ul {
   opacity: 0.1;
 }
 
-#conteneur {
+#conteneur
+{
   display: flex;
-  flex-direction: row;
-  margin: 50px;
+}
+
+#sous_conteneur {
+  display: flex;
+  
+  
 }
 
 .lisere_gauche {
@@ -141,12 +176,12 @@ ul {
 }
 
 #formation {
-  max-height: 700px;
+  max-height: 850px;
   width: 30%;
 }
 
 #competences {
-  max-height: 570px;
+  max-height: 770px;
   width: 30%;
 }
 
