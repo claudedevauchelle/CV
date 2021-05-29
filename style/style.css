@@ -18,7 +18,7 @@ body {
 /* responsive */
 
 
-@media screen and (max-width: 1024px)
+@media all and (max-width: 1024px)
 {
   #bloc_page
   {
@@ -37,7 +37,9 @@ body {
 
   #sous_conteneur
   {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   section
